@@ -13,7 +13,7 @@ import java.util.List;
 public class CarController {
     private final ServiceCar serviceCar;
 
-    @Autowired
+
     public CarController(ServiceCar serviceCar) {
         this.serviceCar = serviceCar;
     }
