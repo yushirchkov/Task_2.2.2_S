@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class ServiceCar {
+public class ServiceCar implements Service {
 
 
     private final List<Car> carList = Car.carList();
